@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // 使用方法:
         // 打开  http://lbs.amap.com/console/show/picker 选取需要定位的坐标,获得的lat和lng,使用下面的算法获取location,打印出来,然后在bundle的PengRun.gpx文件中修改,运行即可.
-        let location = LocationTransform.gcj2wgs(gcjLat: 40.008593, gcjLng: 116.487706)
+        let location = LocationTransform.gcj2wgs(gcjLat: 40.008776, gcjLng: 116.488126)
         print(location)
         //鹏润大厦: (wgsLat: 39.957836160616019, wgsLng: 116.46030578410404)
-        //恒基伟业大厦: (wgsLat: 40.007330919062198, wgsLng: 116.48164007343351)
+        //恒基伟业大厦: (wgsLat: 40.00751514343694, wgsLng: 116.48206162730449)
         return true
         // PS:如果程序运行起来后直接拔掉数据线,则虚拟定位可保留(会影响几乎所有app的定位),重启手机方可恢复;如果手动终止程序运行则立即恢复.
         // 原理:Scheme中修改虚拟定位

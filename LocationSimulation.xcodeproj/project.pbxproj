@@ -105,7 +105,7 @@
 				TargetAttributes = {
 					F23DAFD01EA8550A00B3F36B = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2ZD2CZ782K;
+						DevelopmentTeam = YHAR24Y35Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,7 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2ZD2CZ782K;
+				DEVELOPMENT_TEAM = YHAR24Y35Q;
 				INFOPLIST_FILE = LocationSimulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FsThatOne.TestDemos.LocationSimulation;
@@ -286,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2ZD2CZ782K;
+				DEVELOPMENT_TEAM = YHAR24Y35Q;
 				INFOPLIST_FILE = LocationSimulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FsThatOne.TestDemos.LocationSimulation;
